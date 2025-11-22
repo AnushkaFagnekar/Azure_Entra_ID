@@ -1,0 +1,25 @@
+# Local .terraform directories
+.terraform/
+
+# State files
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate*
+*.tfstate.backup
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Exclude TFVars (may contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Ignore plan files
+*.plan
+
+# Provider lock file (optional)
+.terraform.lock.hcl
+
+# VS Code settings
+.vscode/
